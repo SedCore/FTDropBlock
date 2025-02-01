@@ -6,17 +6,17 @@ The use of Deep Learning (DL) and digital signal processing in Brain-Computer In
 
 ## Prerequisites
 We ran our experiment in the following environment:
-* ● &ensp; NVIDIA Tesla T4 GPU with 16GB RAM
-* ● &ensp; Linux Ubuntu 24.04 LTS operating system
-* ● &ensp; CUDA 12.6 library
-* ● &ensp; Python 3.12.3 x64
-* ● &ensp; Tensorflow 2.18.0 with XLA compiler
+* NVIDIA Tesla T4 GPU with 16GB RAM
+* Linux Ubuntu 24.04 LTS operating system
+* CUDA 12.6 library
+* Python 3.12.3 x64
+* Tensorflow 2.18.0 with XLA compiler
 
 ## Usage
 ### Models tested
-* ● &ensp; EEGNet v4 [(GitHub repo)](https://github.com/vlawhern/arl-eegmodels). Original paper [here](https://doi.org/10.1088/1741-2552/aace8c).
-* ● &ensp; EEG-TCNet [(GitHub repo)](https://github.com/iis-eth-zurich/eeg-tcnet). Original paper [here](https://doi.org/10.1109/SMC42975.2020.9283028).
-* ● &ensp; EEG-ITNet [(GitHub repo)](https://github.com/AbbasSalami/EEG-ITNet). Original paper [here](https://doi.org/10.1088/1741-2552/aace8c)
+* EEGNet [(GitHub repo)](https://github.com/vlawhern/arl-eegmodels). Original paper [here](https://doi.org/10.1088/1741-2552/aace8c).
+* EEG-TCNet [(GitHub repo)](https://github.com/iis-eth-zurich/eeg-tcnet). Original paper [here](https://doi.org/10.1109/SMC42975.2020.9283028).
+* EEG-ITNet [(GitHub repo)](https://github.com/AbbasSalami/EEG-ITNet). Original paper [here](https://doi.org/10.1088/1741-2552/aace8c)
 
 ### Dataset
 We used the [BCI Competition IV 2a](https://www.bbci.de/competition/iv) dataset, imported in our code using the [MOABB](https://doi.org/10.5281/zenodo.10034223) library.
@@ -26,11 +26,11 @@ Run the main.py file. The use of parameters is optional since there are default 
 ```
 python3 main.py --model=EEGNetv4
 ```
-Parameters:
-* --model: CNN model. Choices: EEGNetv4 (default), EEGTCNet, EEGITNet.
-* --reg: Regularization method. Choices: 0 for Dropout or 1 for FT-DropBlock (default).
-* --prob: Overall drop probability: 0.2, 0.3, 0.4, 0.5 (default), 0.6, 0.7, 0.8, 0.9
-* --block: Block size value for FT-DropBlock: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 (default), etc.
+Parameters:\
+--model: CNN model. Choices: EEGNetv4 (default), EEGTCNet, EEGITNet.\
+--reg: Regularization method. Choices: 0 for Dropout or 1 for FT-DropBlock (default).\
+--prob: Overall drop probability: 0.2, 0.3, 0.4, 0.5 (default), 0.6, 0.7, 0.8, 0.9\
+--block: Block size value for FT-DropBlock: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 (default), etc.
 
 To load our models for inference, uncomment line 101 and comment out lines 108-131 in the main.py file. Our models can be found in the folder ```save```.
 
