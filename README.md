@@ -32,6 +32,8 @@ Parameters:
 * --prob: Overall drop probability: 0.2, 0.3, 0.4, 0.5 (default), 0.6, 0.7, 0.8, 0.9
 * --block: Block size value for FT-DropBlock: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 (default), etc.
 
+To load our models for inference, uncomment line 101 and comment out lines 108-131 in the main.py file. Our models can be found in the folder ```save```.
+
 ## Paper citation
 If you use FT-DropBlock regularization in your research and found it helpful, please cite our paper:
 ```
