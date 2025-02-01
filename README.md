@@ -44,4 +44,4 @@ If you use FT-DropBlock regularization in your research and found it helpful, pl
 }
 ```
 ## License
-Please refer to the License.md file.
+Please refer to the LICENSE file.
