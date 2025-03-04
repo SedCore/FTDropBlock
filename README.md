@@ -15,6 +15,7 @@ We ran our experiment in the following environment:
 
 ## Requirements
 * braindecode==0.8.1
+* moabb==1.1.1
 * matplotlib==3.10.1
 * numpy==2.2.3
 * scikit_learn==1.6.1
