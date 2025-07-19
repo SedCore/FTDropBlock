@@ -50,10 +50,10 @@ If you use FT-DropBlock regularization in your research and found it helpful, pl
 ```
 @inproceedings{Sedi2025ftdropblock,
   author={Sedi Nzakuna, Pierre and Paciello, Vincenzo and Gallo, Vincenzo and Lay-Ekuakille, Aimé and Kuti Lusala, Angelo},
-  title={FT-DropBlock: A Novel Approach for SPatiotemporal Regularization in EEG-based Convolutional Neural Networks},
-  booktitle={2025 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)},
+  booktitle={2025 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)}, 
+  title={FT-DropBlock: A Novel Approach for Spatiotemporal Regularization in EEG-based Convolutional Neural Networks}, 
   year={2025},
-  doi={}
+  doi={10.1109/I2MTC62753.2025.11079124}
 }
 ```
 ## License
