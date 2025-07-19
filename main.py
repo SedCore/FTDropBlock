@@ -3,7 +3,7 @@
 # https://github.com/SedCore/FTDropBlock
 # Original paper: P. Sedi Nzakuna, V. Paciello, V. Gallo, A. Lay-Ekuakille, A. Kuti Lusala,
 #   “FT-DropBlock: A Novel Approach for SPatiotemporal Regularization in EEG-based Convolutional Neural Networks,”
-#   in 2025 IEEE International Instrumentation and Measurement Technology Conference (I2MTC), 2025
+#   in 2025 IEEE International Instrumentation and Measurement Technology Conference (I2MTC), Chemnitz, Germany, 2025, pp. 1-6, doi: 10.1109/I2MTC62753.2025.11079124.
 #
 # Inspired from: https://github.com/miguelvr/dropblock
 
